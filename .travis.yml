@@ -21,4 +21,3 @@ after_success:
   - docker tag $REPO $REPO:$VERSION
   - docker tag $REPO $REPO:$VERSION.$TRAVIS_BUILD_NUMBER
   - docker push $REPO
-
